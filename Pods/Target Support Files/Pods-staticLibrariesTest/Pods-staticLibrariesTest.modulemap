@@ -1,0 +1,6 @@
+module Pods_staticLibrariesTest {
+  umbrella header "Pods-staticLibrariesTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

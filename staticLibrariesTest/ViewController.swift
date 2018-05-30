@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import ResponseDetective
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let requestRepresentation = RequestRepresentation(identifier: "bla", request: URLRequest(url: URL(fileURLWithPath: "blup")), deserializedBody: nil)
+        print(requestRepresentation)
     }
 
     override func didReceiveMemoryWarning() {
